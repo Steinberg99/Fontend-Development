@@ -73,7 +73,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Je focus:** Helemaal responsive of allebei :) 
 
-**Je opdracht:** Hier moet ik nog even goed over gaan nadenken! 
+**Je opdracht:** Ik zat er over na te denken om een website te bouwen met React en de [SWAPI (Star Wars API) API](https://swapi.dev/). Ik hier namelijk online [een voorbeeld](https://www.reddit.com/r/Frontend/comments/jnz5z3/star_wars_app_built_with_vue_3_globegl_swapi/) van gevonden online en ik voelde me geïnspireerd om iets soortgelijks te doen.
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
