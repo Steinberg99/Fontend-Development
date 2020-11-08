@@ -67,13 +67,12 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Intake (week 1)
--uitwerken voor de kick-off werkgroep - begin van de eerste week-
 
 **Je startniveau:** Zwart
 
 **Je focus:** Helemaal responsive of allebei :) 
 
-**Je opdracht:** Ik zat er over na te denken om een website te bouwen met React en de [Star Wars API (SWAPI)](https://swapi.dev/). Ik hier namelijk online [een voorbeeld](https://www.reddit.com/r/Frontend/comments/jnz5z3/star_wars_app_built_with_vue_3_globegl_swapi/) van gevonden online en ik voelde me geïnspireerd om iets soortgelijks te doen.
+**Je opdracht:** Ik zat er over na te denken om een website te bouwen met React en de [Star Wars API (SWAPI)](https://swapi.dev/). Ik had namelijk online [een voorbeeld](https://www.reddit.com/r/Frontend/comments/jnz5z3/star_wars_app_built_with_vue_3_globegl_swapi/) van gevonden online en ik voelde me geïnspireerd om iets soortgelijks te doen.
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
