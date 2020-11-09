@@ -72,7 +72,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Je focus:** Helemaal responsive of allebei.  
 
-**Je opdracht:** Ik heb nog geen enkel idee wat ik wil gaan maken voor dit vak.   
+**Je opdracht:** Ik denk dat ik de website van [Carhartt WIP](https://www.carhartt-wip.com/en) ga namaken. Deze site bevat verschillende layouts en is ook volledig responsive. 
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
