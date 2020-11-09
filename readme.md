@@ -72,12 +72,16 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Je focus:** Helemaal responsive of allebei.  
 
-**Je opdracht:** Ik denk dat ik de website van [Carhartt WIP](https://www.carhartt-wip.com/en) ga namaken. Deze site bevat verschillende layouts en is ook volledig responsive. 
+**Je opdracht:** Ik denk dat ik de website van [Carhartt WIP](https://www.carhartt-wip.com/en) ga namaken. Deze site bevat verschillende layouts en is ook volledig responsive. Op de homepage staat een form met validatie. De pagina's bevatten ook allemaal een hamburger menu met de navigatie opties. Op de desktop website werkt deze natuurlijk anders, het is dus een leuke uitdaging om deze op de verschillende schermformaten anders te laten werken. 
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
-<img src="images/dummy-plaatje.svg" width="375px" alt="omschrijving van de pagina">
+<img src="images/Screenshot1.png" width="375px" alt="De homepage van de website.">
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
-<img src="images/dummy-plaatje.svg" width="375px" alt="omschrijving van de pagina">
+<img src="images/Screenshot2.png" width="375px" alt="De detailpagina van een product.">
+
+of 
+
+<img src="images/Screenshot3.png" width="375px" alt="De overzichtspagina van meerdere producten.">
