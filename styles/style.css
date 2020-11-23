@@ -1,5 +1,304 @@
 /* CSS Document */
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Styles voor de header. */
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  height: 88px;
+  width: 100%;
+
+  position: fixed;
+
+  background: #0090e3;
+}
+
+header nav ul {
+  height: 44px;
+}
+
+/* Styles voor de zoekbalk in de header. */
+
+header form {
+  display: flex;
+  height: 45px;
+  min-width: 100%;
+  padding-bottom: 1px;
+  position: relative;
+
+  background: #f2f7fc;
+  border-bottom: 1px solid #dddddd;
+}
+
+header form input[type="text"] {
+  flex-grow: 1;
+  font-family: "Open Sans", sans-serif;
+
+  margin: 5px 0 4px 4px;
+  padding-left: 12px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border: 1px solid #dddddd;
+  border-right: none;
+}
+
+header form input[type="submit"] {
+  width: 42px;
+  margin: 5px 4px 4px 0;
+
+  background-color: #0090e3;
+  border: none;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+header form svg {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 12px;
+  right: 15px;
+  transform: rotate(-90deg);
+
+  fill: white;
+}
+
+/* Styles voor het logo in de header. */
+
+.header_logo {
+  width: 68.44444px;
+  height: 44px;
+}
+
+/* Styles voor al de condition containter ("Beste webwinkel 2019/2020" etc.) op de pagina. */
+
+.conditions_container {
+  display: flex;
+  overflow-x: scroll;
+
+  margin: 7px 12px;
+}
+
+.conditions_container li {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  min-width: 100%;
+  font-size: 12px;
+}
+
+.conditions_container p strong {
+  color: #ff6600;
+  font-weight: 700;
+}
+
+.conditions_container svg {
+  height: 16px;
+  width: 16px;
+  fill: #00b900;
+  margin-right: 8px;
+}
+
+.conditions_container path {
+  width: 100%;
+  height: 100%;
+}
+
+/* Styles voor de headers van al de sections. */
+
+#section_1 {
+  padding-top: 5.5em;
+}
+
+section {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+section h2 {
+  font-size: 16px;
+  padding: 1.5em 0.75em 0 0.75em;
+}
+
+/* Styles voor de images in de eerste section. */
+
+img {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+#image1 {
+  padding-top: 2px;
+}
+
+#image2 {
+  height: 143px;
+  width: auto;
+  margin-top: 1px;
+  border-bottom: 1px solid #dddddd;
+}
+
+/* Styles voor de "Blader door onze categorieën" en "Interresant voor jou" section. */
+
+.categorieën_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 0.75em;
+}
+
+.categorieën_container li {
+  width: 10.15em;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  margin: 0 0 0.75em 0.75em;
+  text-align: center;
+}
+
+.categorieën_container li img {
+  background: #f2f7fc;
+  margin: 0;
+}
+
+.categorieën_container li a {
+  font-size: 13px;
+  color: #0090e3;
+  text-decoration: none;
+  display: block;
+  padding: 17px;
+}
+
+section a {
+  font-size: 13px;
+  color: #0090e3;
+  text-decoration: none;
+  display: block;
+  padding-left: 0.75em;
+}
+
+/* Styles voor de "Interresant voor jou" section. */
+
+section:nth-of-type(3) li {
+  padding: 20px;
+}
+
+section:nth-of-type(3) li a {
+  padding: 0.75em 0 0 0;
+}
+
+section:nth-of-type(3) img {
+  width: auto;
+  height: 6.25em;
+  margin: 0 auto;
+  background: none;
+}
+
+/* Styles voor de "Eerder bekeken door jou" section en de "Aandachtstrekkers" section eronder. */
+
+.producten_container {
+  padding-top: 1em;
+}
+
+section:nth-of-type(5) {
+  padding-top: 0.75em;
+}
+
+.producten_container h2 {
+  padding-top: 1em;
+}
+
+.producten_container h2 strong {
+  color: white;
+  background: #ff6600;
+  font-size: 11px;
+  padding: 0 5px;
+  border-radius: 1em;
+  vertical-align: text-top;
+}
+
+.producten_container ol {
+  display: flex;
+  overflow-x: scroll;
+  list-style-type: none;
+}
+
+.producten_container ol li {
+  min-width: 13.75em;
+  padding-left: 0.75em;
+}
+
+.producten_container ol li img {
+  margin: 0.75em auto;
+  width: auto;
+  height: 6.25em;
+}
+
+.producten_container ol li h3 {
+  font-size: 15px;
+  color: #0090e3;
+  height: 3.375em;
+}
+
+.producten_container ol li p {
+  margin-top: 0.5em;
+  font-size: 15px;
+  color: black;
+  font-weight: bold;
+}
+
+.producten_container ol li p:nth-of-type(2) {
+  color: #00b900;
+  font-size: 13px;
+}
+
+.review_score {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.review_score svg {
+  width: 1em;
+  height: 1em;
+  margin-right: 2px;
+  fill: #00b900;
+}
+
+.review_score a {
+  padding-left: 5px;
+}
+
+/* Styles voor de images in de zesde container. */
+
+#image_container {
+  display: flex;
+  overflow-x: scroll;
+  padding: 12px 12px 0 12px;
+}
+
+#image_container img {
+  width: 278px;
+  height: auto;
+  margin-right: 8px;
+  border-radius: 4px;
+}

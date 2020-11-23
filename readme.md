@@ -76,12 +76,12 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
-<img src="images/Screenshot1.png" width="375px" alt="De homepage van de website.">
+<img src="images/Screenshot_Coolblue_1.png" width="375px" alt="De homepage van de website.">
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
-<img src="images/Screenshot2.png" width="375px" alt="De detailpagina van een product.">
+<img src="images/Screenshot_Coolblue_2.png" width="375px" alt="De detailpagina van een product.">
 
 of 
 
-<img src="images/Screenshot3.png" width="375px" alt="De overzichtspagina van meerdere producten.">
+<img src="images/Screenshot_Coolblue_3.png" width="375px" alt="De overzichtspagina van meerdere producten.">
