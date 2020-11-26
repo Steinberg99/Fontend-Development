@@ -30,7 +30,46 @@ header {
   background: #0090e3;
 }
 
+header nav {
+  width: 100%;
+}
+
 header nav ul {
+  height: 44px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 20px 0 12px;
+}
+
+header nav ul li svg {
+  height: 24px;
+  width: 24px;
+}
+
+#heart {
+  height: 20px;
+  width: 20px;
+}
+
+#hamburger {
+  height: 20px;
+  width: 30px;
+  margin-top: 2px;
+}
+
+header nav ul li a svg path {
+  fill: white;
+  height: 100%;
+  width: auto;
+}
+
+/* Styles voor het logo in de header. */
+
+.header_logo {
+  width: 68.44444px;
   height: 44px;
 }
 
@@ -80,26 +119,23 @@ header form svg {
   fill: white;
 }
 
-/* Styles voor het logo in de header. */
-
-.header_logo {
-  width: 68.44444px;
-  height: 44px;
-}
-
 /* Styles voor al de condition containter ("Beste webwinkel 2019/2020" etc.) op de pagina. */
 
 .conditions_container {
   display: flex;
   overflow-x: scroll;
-
   margin: 7px 12px;
+}
+
+.conditions_container::-webkit-scrollbar {
+  display: none;
 }
 
 .conditions_container li {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
 
   min-width: 100%;
   font-size: 12px;
@@ -120,6 +156,20 @@ header form svg {
 .conditions_container path {
   width: 100%;
   height: 100%;
+}
+
+.conditions_container div {
+  height: 1px;
+  background: #dddddd;
+  flex-grow: 1;
+}
+
+.conditions_container div:nth-of-type(1) {
+  margin-right: 8px;
+}
+
+.conditions_container div:nth-of-type(2) {
+  margin-left: 8px;
 }
 
 /* Styles voor de headers van al de sections. */
@@ -196,6 +246,15 @@ section a {
   padding-left: 0.75em;
 }
 
+section a svg {
+  width: 6.5px;
+  height: 10px;
+}
+
+section a svg path {
+  fill: #0090e3;
+}
+
 /* Styles voor de "Interresant voor jou" section. */
 
 section:nth-of-type(3) li {
@@ -240,6 +299,11 @@ section:nth-of-type(5) {
   display: flex;
   overflow-x: scroll;
   list-style-type: none;
+  margin-right: 12px;
+}
+
+.producten_container ol::-webkit-scrollbar {
+  display: none;
 }
 
 .producten_container ol li {
@@ -257,6 +321,7 @@ section:nth-of-type(5) {
   font-size: 15px;
   color: #0090e3;
   height: 3.375em;
+  line-height: 1.25;
 }
 
 .producten_container ol li p {
@@ -275,6 +340,7 @@ section:nth-of-type(5) {
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-top: 6px;
 }
 
 .review_score svg {
@@ -293,7 +359,12 @@ section:nth-of-type(5) {
 #image_container {
   display: flex;
   overflow-x: scroll;
-  padding: 12px 12px 0 12px;
+  padding: 12px 0 0 12px;
+  margin-right: 12px;
+}
+
+#image_container::-webkit-scrollbar {
+  display: none;
 }
 
 #image_container img {
@@ -301,4 +372,61 @@ section:nth-of-type(5) {
   height: auto;
   margin-right: 8px;
   border-radius: 4px;
+}
+
+/* Styles voor de footer */
+
+section article {
+  background: #0090e3;
+  margin-top: 1.5em;
+}
+
+section article ul {
+  padding-top: 4px;
+}
+
+section article ul li {
+  height: 44px;
+  border-bottom: 1px solid #40acea;
+  margin: 0 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section article ul li a {
+  color: white;
+  padding: 0 0 4px 0;
+}
+
+section article ul li svg {
+  height: 16px;
+  width: 16px;
+  fill: white;
+}
+
+section article img {
+  height: 108px;
+  width: auto;
+  margin-left: 12px;
+}
+
+#plaatje_text {
+  margin-top: 2em;
+  display: flex;
+}
+
+#text_onder_elkaar {
+  margin-left: 1em;
+}
+
+#text_onder_elkaar h3 {
+  font-size: 15px;
+  color: white;
+  margin-bottom: 0.25em;
+}
+
+#text_onder_elkaar p {
+  font-size: 13px;
+  color: white;
 }
